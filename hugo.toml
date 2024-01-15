@@ -1,0 +1,16 @@
+baseURL = 'https://01xz.github.io/'
+languageCode = 'en-us'
+title = '01xz.github.io'
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
+[menu]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/01xz"
+  weight = 20
+
+[params]
+  BookTheme = 'auto'
